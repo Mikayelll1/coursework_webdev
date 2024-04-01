@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+	<link rel="stylesheet" href="Feedbackcss.css">
+</head>
+<body>
+		<div class="fakenavbar">
+			<img src="logoforcw.png" class="logo">
+			<div class="navbar">
+				<ul>
+                <li><a class="home" href="w1986769_homepage.html" style="color: white">Home</a></li>
+                <li><a class="store" href="https://w2046966.users.ecs.westminster.ac.uk/WebDev/Shop.html" style="color: white">Store</a></li>
+                <li><a class="feedback" href="w1986769_feedback.html" style="color: white">Feedback</a></li>
+                <li><a class="gallery" href="#" style="color: white">Gallery</a></li>
+				<li><a class="user" href="https://w1991760.users.ecs.westminster.ac.uk/webDev/profile.html" style="color: white">User Profiles</a></li>
+				<li><a class="meet" href="https://w1991760.users.ecs.westminster.ac.uk/webDev/team.html" style="color: white">Meet The Team</a></li>
+                <li><a class="content" href="#" style="color: white">Content Pages</a>
+                    <ul class="dropdown">
+                        <li><a href="https://w2046966.users.ecs.westminster.ac.uk/WebDev/content_ST1.html" style="color: white">Student 1</a></li>
+                        <li><a href="#" style="color: white">Student 2</a></li>
+                        <li><a href="#" style="color: white">Student 3</a></li>
+                        <li><a href="#" style="color: white">Student 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" style="color: white">Page Editors</a>
+                    <ul class="dropdown">
+                        <li><a href="https://w2046966.users.ecs.westminster.ac.uk/WebDev/pageEditor_ST1.html" style="color: white">Student 1</a></li>
+                        <li><a href="w1986769_pageeditor.html" style="color: white">Student 2</a></li>
+                        <li><a href="https://w1991760.users.ecs.westminster.ac.uk/webDev/pageEditor_ST3.html" style="color: white">Student 3</a></li>
+                        <li><a href="#" style="color: white">Student 4</a></li>
+                    </ul>
+                </li>
+            
+            </ul>
+			</div>
+		</div>
+		<br>
+		<h1>Feedback Form</h1>
+		
+		<br>
+	
+<h2 style="color: #414141">Required Fields *</h2>
+	<br>
+		<form class="form-group">
+			<div class="form-group">
+				<label for="name" style="text-align:center;">*Enter Name:</label>
+				
+				<br>
+				
+				<input type="name" id="name" name="name" placeholder="Enter your name">
+	</div>
+	<div class="form-group">
+		<label for="email" style="text-align:center;">*Enter Email:</label>
+				
+		<br>
+				
+		<input type="email" id="email" name="email" placeholder="Enter your email">
+	</div>
+	<div class="form-group" style="text-align:center;">
+		<label for="first-time">Is this your first time visiting?</label>
+		<br>
+				
+		<select id="first-time" name="first-time">
+			<option value="yes" style="text-align:center;">Yes</option>
+			<option value="no" >No</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<label style="text-align:center;">Would you recommend this website to a friend?</label><br>
+		<input type="radio" id="yes" name="recommendation" value="yes">
+		<label for="yes" class="yes" style="display: inline-block">Yes</label>
+		<br>
+		<input type="radio" id="no" name="recommendation" value="no">
+		<label for="no">No</label>
+	</div>
+	<div class="form-group">
+		<label for="rating">On a Scale of 1 to 10 how would you rate this website?</label><br>
+		<div class="rating-container">
+			<input type="radio" id="1" name="rating" value="1">
+			<label for="1">1</label>
+			<input type="radio" id="2" name="rating" value="2">
+			<label for="2">2</label>
+			<input type="radio" id="3" name="rating" value="3">
+			<label for="3">3</label>
+			<input type="radio" id="4" name="rating" value="4">
+			<label for="4">4</label>
+			<input type="radio" id="5" name="rating" value="5">
+			<label for="5">5</label>
+			<input type="radio" id="6" name="rating" value="6">
+			<label for="6">6</label>
+			<input type="radio" id="7" name="rating" value="7">
+			<label for="7">7</label>
+			<input type="radio" id="8" name="rating" value="8">
+			<label for="8">8</label>
+			<input type="radio" id="9" name="rating" value="9">
+			<label for="9">9</label>
+			<input type="radio" id="10" name="rating" value="10">
+			<label for="10">10</label>
+		</div>
+		<br>
+		<div class="form-group">
+			<label for="Suggestions" style="text-align:center;">Add any message you would like to leave here:</label>
+				<br>
+			<input type="Suggestions" id="suggestions" name="suggestions" placeholder="Add you message here.">
+			<button type="submit">Submit</button>
+			</div>
+			</div>
+	</form>
+</body>
+</html>
